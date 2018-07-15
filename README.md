@@ -1,27 +1,25 @@
 # HelloAngularHeroku
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+### Reference: 
 
-## Development server
+##### Deploy to Heroku part:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[How to Deploy Angular Application to Heroku]: https://medium.com/@hellotunmbi/how-to-deploy-angular-application-to-heroku-1d56e09c5147
 
-## Code scaffolding
+PS:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The postinstall command in package.json should be:
 
-## Build
+```
+"postinstall": "ng build --prod"
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+[Ref]: https://medium.com/@sfbesong/nice-article-3a1c33a1696
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+##### Routing Part:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+[如何在 Angular 建立 Route ?]: http://oomusou.io/angular/simple-route/
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
